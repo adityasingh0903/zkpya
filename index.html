@@ -2,55 +2,205 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Soaring Skies</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="inner-nav"></div>
-<div id="container">
-    <div id="profile">
-        <div id="image">
-            <img id="profile-photo" src="dp.jpg" alt="Profile-Image">
-            <a href="#"><i class="fas fa-pen stroke-transparent"></i></a>
+    <div class="wrapper">
+        <div class="intro">
+          <div class="profile">
+            <div class="photo">
+              <img src="https://i.imgur.com/zh9eNsh.jpg">
+            </div>
+            <div class="bio">
+              <h1 class="name">Aditya Kumar Singh</h1>
+              <p class="profession">SRM University</p>
+            </div>
+          </div>
+          <div class="intro-section about">
+            <h1 class="title">About me</h1>
+            <p class="paragraph">
+              
+            </p>
+          </div>
+          <div class="intro-section contact">
+            <h1 class="title"></h1>
+            <div class="info-section">
+              <i class="fas fa-phone"></i>
+              <span>(+91) 8210661778</span>
+            </div>
+            <div class="info-section">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Chennai, Tamil Nadu</span>
+            </div>
+            <div class="info-section">
+              <i class="fas fa-paper-plane"></i>
+              <span>as3552@srmist.edu.in</span>
+            </div>
+            <div class="info-section link">
+              <i class="fab fa-facebook"></i>
+              <a target="_blank" rel="author" href="">
+                <span></span>
+              </a>
+            </div>
+          </div>
+          <div class="intro-section follow">
+            <h1 class="title"></h1>
+            <div class="info-section link">
+              <i class="fab fa-github"></i>
+              <a target="_blank" rel="author" href="">
+                <span></span>
+              </a>
+            </div>
+            <div class="info-section link">
+              <i class="fab fa-codepen"></i>
+              <a target="_blank" rel="author" href="">
+                <span>handle/instagram/___theadityasingh___</span>
+              </a>
+            </div>
+            <div class="info-section link">
+              <i class="fab fa-medium"></i>
+              <a target="_blank" rel="author" href="https://medium.com/狗奴工程師">
+                <span></span>
+              </a>
+            </div>
+          </div>
         </div>
-        <p id="name">Yashita Agarwala<br><span id="email"></span></p>
-        <p id="designation">STUDENT<br><span id="college">SRM INSTITUTE OF SCIENCE AND TECHNOLOGY</span></p>
-        <div id="social-links"><a href="#"><i class="fab fa-facebook-f stroke-transparent"></i></a><a><i class="fab fa-twitter stroke-transparent"></i></a><a><i class="fab fa-linkedin-in stroke-transparent"></i></a><a><i class="fab fa-github stroke-transparent"></i></a></div>
-        <a id="edit-intro" href="#"><i class="fas fa-pen-alt blue"></i>&nbsp;&nbsp;</a>
-        <hr width="100%">
-        <div id="about">
-            <p style="display:inline;">Details</p>
-            <a href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
+        <div class="detail">
+          <div class="detail-section edu">
+            <div class="detail-title">
+              <div class="title-icon">
+                <i class="fas fa-user-graduate"></i>
+              </div>
+              <span>Soaring Skies - Objectives Accomplished</span>
+            </div>
+            <div class="detail-content">
+              <div class="timeline-block">
+                <h1>Enhancing Flight Booking Experience</h1>
+                <p>Designing the UI for a front end for a web application that enhances flight booking experience</p>
+                <time>04/10/23</time>
+              </div>
+              <div class="timeline-block">
+                <h1>Implementing the Design</h1>
+                <p>Making the best use of code to bring that design into a web reality.</p>
+                <time>07/10/23</time>
+              </div>
+            </div>
+          </div>
+          <div class="detail-section pg-skill">
+            <div class="detail-title">
+              <div class="title-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <span>Programming skills</span>
+            </div>
+            <div class="detail-content">
+              <ul class="pg-list">
+                <li>
+                  <span>HTML5</span>
+                  <div class="sb-skeleton">
+                    <div class="skillbar" style="--pgbar-length: 90%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span>CSS3</span>
+                  <div class="sb-skeleton">
+                    <div class="skillbar" style="--pgbar-length: 75%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span>Javascript</span>
+                  <div class="sb-skeleton">
+                    <div class="skillbar" style="--pgbar-length: 70%"></div>
+                  </div>
+                </li>
+               
+               
+              </ul>
+            </div>
+          </div>
+          <div class="detail-section tool-skill">
+            <div class="detail-title">
+              <div class="title-icon">
+                <i class="fas fa-tools"></i>
+              </div>
+              <span>Developement Tools</span>
+            </div>
+            <div class="detail-content">
+              <ul class="tool-list">
+                <li>
+                  <svg viewbox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45"></circle>
+                    <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.6"></circle>
+                  </svg>
+                  <span class="tl-name">Photoshop</span>
+                  <span class="tl-exp">60%</span>
+                </li>
+                <li>
+                  <svg viewbox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45"></circle>
+                    <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.8"></circle>
+                  </svg>
+                  <span class="tl-name">Sublime</span>
+                  <span class="tl-exp">80%</span>
+                </li>
+                <li>
+                  <svg viewbox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45"></circle>
+                    <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.7"></circle>
+                  </svg>
+                  <span class="tl-name">Git</span>
+                  <span class="tl-exp">70%</span>
+                </li>
+                <li>
+                  <svg viewbox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45"></circle>
+                    <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.74"></circle>
+                  </svg>
+                  <span class="tl-name">NPM</span>
+                  <span class="tl-exp">74%</span>
+                </li>
+              </ul>
+            </div>
+      
+          </div>
+          <div class="detail-section interests">
+            <div class="detail-title">
+              <div class="title-icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <span>Interests</span>
+            </div>
+            <div class="detail-content">
+              <div class="outer-frame">
+                <ul class="favor-list">
+                  <li>
+                    <i class="fas fa-gamepad"></i>
+                    <span>Game</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-paw"></i>
+                    <span>Pet</span>
+                  </li>
+                  <li>
+                    <i class="far fa-headphones-alt"></i>
+                    <span>Music</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-book-spells"></i>
+                    <span>Self-learning</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-user-edit"></i>
+                    <span>Blog</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <p id="year-graduation">Date of participation<br><strong>April 13th and April 14th</strong></p>
-        <p id="education">Department<br><strong>CSE-BIG DATA ANALYTICS</strong></p>
-        <p id="more-about">PTN code<br><span>0954202</span></p>
-        <p id="telephone">Telephone<br><strong>******9489</strong></p>
-        
-    </div>
-    <div id="info-cards">
-       
-        <div class="card">
-            <p><i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;ZKP Online Hackathon: Digital Verification</p>
-           
-            
-        </div>
-        <div class="card">
-            <p><i class="fas fa-graduation-cap stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Thorough Result of the Hackathon</p>
-            <ul>
-                <li><p class="tags">Code Customization:-<br><span>The participant was challenged to discover and customize codes to his benifit.<span></span></span></p>
-                    <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                <li><p class="tags">Thinking out of the box:-<br><span>Making an app is not as easy as it might sound. It takes a lot of innovative thinking to determine what is best for your audience. <span></span></span></p>
-                    <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-                <li><p class="tags">Learning at its best:-<br><span>Learning coding and its applications by writing your own codes. <span></span></span></p>
-                    <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a></li>
-            </ul>
-            
-        </div>
-    </div>
-</div>
+      </div>
     
 </body>
 </html>
